@@ -1,0 +1,28 @@
+1、数据加载 loading 动画
+    https://blog.csdn.net/u010725171/article/details/81358737
+
+2、创建 implementation 依赖步骤：
+    1-在Project的gradle下添加如下信息:
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+
+    2、在Moudle的library 的gradle 添加如下信息：
+        apply plugin: 'com.github.dcendents.android-maven'
+        group='com.github.YourUsername' 替换为自己github用户名
+
+    3、忽略文件
+        Directory: .gradle/ 表示忽略.gradle文件夹下所有文件
+        Directory: .idea/ 表示忽略.idea文件夹下所有文件
+        Directory: build/ 表示忽略build文件夹下所有文件
+        Directory: app/build/ 表示忽略app/build文件夹下所有文件
+        File: local.properties 表示忽略local.properties文件
+        Mask: *.iml 表示忽略所有iml格式的文件。
+
+    4、上传github 创建release - - >Create new Release
+
+    5、填写版本号 发布
+
+    6、在jitpack官网 搜索你的github仓库
+        https://jitpack.io
+
+    7、搜索并点击LookUp - - > Get it
+        一定要等它编译完，显示版本号才能引用

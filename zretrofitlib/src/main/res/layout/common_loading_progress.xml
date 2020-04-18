@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center">
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicatorName="BallClipRotatePulseIndicator"
+        app:indicatorColor="@android:color/holo_orange_dark"
+        />
+
+    <!--
+        "BallPulseIndicator",
+            "BallGridPulseIndicator",
+            "BallClipRotateIndicator",
+            "BallClipRotatePulseIndicator",
+            "SquareSpinIndicator",
+            "BallClipRotateMultipleIndicator",
+            "BallPulseRiseIndicator",
+            "BallRotateIndicator",
+            "CubeTransitionIndicator",
+            "BallZigZagIndicator",
+            "BallZigZagDeflectIndicator",
+            "BallTrianglePathIndicator",
+            "BallScaleIndicator",
+            "LineScaleIndicator",
+            "LineScalePartyIndicator",
+            "BallScaleMultipleIndicator",
+            "BallPulseSyncIndicator",
+            "BallBeatIndicator",
+            "LineScalePulseOutIndicator",
+            "LineScalePulseOutRapidIndicator",
+            "BallScaleRippleIndicator",
+            "BallScaleRippleMultipleIndicator",
+            "BallSpinFadeLoaderIndicator",
+            "LineSpinFadeLoaderIndicator",
+            "TriangleSkewSpinIndicator",
+            "PacmanIndicator",
+            "BallGridBeatIndicator",
+            "SemiCircleSpinIndicator",
+            "com.wang.avi.sample.MyCustomIndicator"
+     -->
+
+
+</LinearLayout>
