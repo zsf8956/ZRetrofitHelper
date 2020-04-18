@@ -11,4 +11,11 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
+    <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/anim_loading_progress</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
 </resources>
