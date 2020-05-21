@@ -81,7 +81,7 @@ public class RetrofitRequest {
 
 
     public static String getTest(){
-        return "错了 我不会插件，我是 依赖库";
+        return "我是新版本 1.3";
     }
 
     /**
