@@ -80,6 +80,10 @@ public class RetrofitRequest {
             .build();
 
 
+    public static String getTest(){
+        return "我是插件的 test 方法";
+    }
+
     /**
      * 发送GET网络请求
      * @param url 请求地址
